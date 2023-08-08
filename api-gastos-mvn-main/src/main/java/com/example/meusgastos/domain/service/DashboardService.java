@@ -30,8 +30,9 @@ public class DashboardService {
                 totalReceber += titulo.getValor();
                 titulosReceber.add(titulo);
             }
-            saldo = totalReceber - totalPagar;
+            
         }
+        saldo = totalReceber - totalPagar;
         return new DashboardResponseDTO(totalPagar, totalReceber, saldo, titulosPagar, titulosReceber);
     }
 }

@@ -16,7 +16,5 @@ public class LoginResponseDTO {
     public void setToken(String token) {
         this.token = token;
     }
-  
-
-    
+      
 }
