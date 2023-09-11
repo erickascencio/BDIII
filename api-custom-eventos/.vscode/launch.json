@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-ApicustomApplication<apicustom>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.example.apicustom.ApicustomApplication",
+            "projectName": "apicustom",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
